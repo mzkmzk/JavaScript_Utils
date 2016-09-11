@@ -2,7 +2,7 @@
  * 事件处理
  * 待优化: 1. 如何对浏览器检查只需要一次
  */
-var Event = {
+export default Event = {
 	getEvent: function(event) {
 		return event ? event : window.event;
 	},
@@ -68,3 +68,5 @@ var Event = {
 		}
 	},
 }
+
+ 
