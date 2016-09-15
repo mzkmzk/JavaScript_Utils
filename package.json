@@ -13,13 +13,15 @@
   "keywords": [
     "Journey"
   ],
-  "author": "K",
+  "author": "404k",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mzkmzk/JavaScript_Utils/issues"
   },
   "homepage": "https://github.com/mzkmzk/JavaScript_Utils#readme",
-  "dependencies": {},
+  "dependencies": {
+    
+  },
   "devDependencies": {
     "babel-core": "6.9.1",
     "babel-loader": "6.2.4",
