@@ -1,14 +1,16 @@
-import Ajax from '../Ajax/Ajax';
+import { Ajax } from '../Ajax/Ajax';
 import { Brower } from '../Brower/Brower';
-import Event from '../Event/Event';
+import { Cookie } from '../Cookie/Cookie';
+import { Event } from '../Event/Event';
 
-var  JavaScript_Utils = {
+export default JavaScript_Utils = {
 	Ajax,
-	Event,
+	Brower,
+	Cookie,
 	Event,
 }
 
-Brower.hasFlash();
 
-module.exports = JavaScript_Utils;
+
+
 
