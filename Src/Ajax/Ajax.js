@@ -7,7 +7,8 @@ var Ajax = {
 		url += '?';
 		var params = Object.keys(data);
 		for (var i = params.length - 1; i >= 0; i--) {
-			url += params[i];
+			//当有多层对象,估计有问题
+			url += params[i] + "=" +  data[params[i]] + "&";
 		}
 		img.src = url;
 	}

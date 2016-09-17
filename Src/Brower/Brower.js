@@ -1,4 +1,4 @@
-export default Brower = {
+var Brower = {
 	hasPlugin: function(name) {
 		var plugins = window.navigator.plugins;
 		name = name.toLowerCase();
@@ -33,3 +33,6 @@ export default Brower = {
 		return params;
 	},
 }
+
+export default Brower;
+
